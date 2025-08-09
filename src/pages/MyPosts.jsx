@@ -56,7 +56,7 @@ function MyPosts() {
             <div className='min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center'>
                 <div className='text-center'>
                     <div className='w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4'></div>
-                    <p className='text-gray-300'>Loading your stories...</p>
+                    <p className='text-gray-300'>Loading your Blogs...</p>
                 </div>
             </div>
         )
@@ -69,7 +69,7 @@ function MyPosts() {
                 <Container>
                     <div className='text-center'>
                         <h1 className='text-4xl md:text-5xl font-bold mb-4'>
-                            My Stories
+                            My Blogs
                         </h1>
                         <p className='text-xl text-blue-100 mb-8 max-w-2xl mx-auto'>
                             Manage and view all your published content
@@ -79,7 +79,7 @@ function MyPosts() {
                                 to="/add-post"
                                 className='px-6 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5'
                             >
-                                Create New Story
+                                Create New Blog
                             </Link>
                             <div className='flex items-center space-x-2 text-blue-100'>
                                 <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -98,15 +98,15 @@ function MyPosts() {
                     {posts.length === 0 ? (
                         <div className='text-center py-16'>
                             <div className='text-6xl mb-6'>✍️</div>
-                            <h2 className='text-2xl font-bold text-white mb-4'>No Stories Yet</h2>
+                            <h2 className='text-2xl font-bold text-white mb-4'>No Blogs Yet</h2>
                             <p className='text-gray-300 mb-8 max-w-md mx-auto'>
-                                You haven't published any stories yet. Start sharing your thoughts with the world!
+                                You haven't published any blogs yet. Start sharing your thoughts with the world!
                             </p>
                             <Link
                                 to="/add-post"
                                 className='inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-blue-900 transition-all duration-300 shadow-lg hover:shadow-xl'
                             >
-                                Write Your First Story
+                                Write Your First Blog
                                 <svg className='ml-2 w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                                     <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M13 7l5 5m0 0l-5 5m5-5H6' />
                                 </svg>
