@@ -4,7 +4,6 @@
 
 BlogSpace is a modern, full-featured blogging platform built with React and Appwrite that provides a seamless and anonymous blogging experience. Whether you're sharing knowledge, experiences, or creative content, BlogSpace offers a secure and user-friendly environment for content creators and readers alike.
 
-![BlogSpace Banner](https://img.shields.io/badge/BlogSpace-Modern%20Blogging%20Platform-blue?style=for-the-badge&logo=react)
 
 ## ✨ Features
 
