@@ -58,18 +58,18 @@ function Home() {
                             <p className='text-xl md:text-2xl text-indigo-100 mb-8 max-w-3xl mx-auto leading-relaxed'>
                                 Discover amazing stories, share your thoughts, and connect with a community of passionate writers and readers.
                             </p>
-                            <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
+                            <div className='flex flex-col sm:flex-row gap-4 justify-center items-center relative z-10'>
                                 {authStatus ? (
                                     <>
                                         <Link
                                             to="/add-post"
-                                            className='px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1'
+                                            className='px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 touch-manipulation cursor-pointer relative z-10 min-h-[3rem] flex items-center justify-center w-full sm:w-auto'
                                         >
                                             Create Your Blog
                                         </Link>
                                         <Link
                                             to="/all-posts"
-                                            className='px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300'
+                                            className='px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300 touch-manipulation cursor-pointer relative z-10 min-h-[3rem] flex items-center justify-center w-full sm:w-auto'
                                         >
                                             Explore Posts
                                         </Link>
@@ -78,13 +78,13 @@ function Home() {
                                     <>
                                         <Link
                                             to="/signup"
-                                            className='px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1'
+                                            className='px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 touch-manipulation cursor-pointer relative z-10 min-h-[3rem] flex items-center justify-center w-full sm:w-auto'
                                         >
                                             Get Started Free
                                         </Link>
                                         <Link
                                             to="/login"
-                                            className='px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300'
+                                            className='px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300 touch-manipulation cursor-pointer relative z-10 min-h-[3rem] flex items-center justify-center w-full sm:w-auto'
                                         >
                                             Sign In
                                         </Link>
@@ -95,8 +95,8 @@ function Home() {
                     </Container>
                 </div>
                 {/* Decorative elements */}
-                <div className='absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full -translate-x-32 -translate-y-32'></div>
-                <div className='absolute bottom-0 right-0 w-96 h-96 bg-white/10 rounded-full translate-x-32 translate-y-32'></div>
+                <div className='absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full -translate-x-32 -translate-y-32 pointer-events-none'></div>
+                <div className='absolute bottom-0 right-0 w-96 h-96 bg-white/10 rounded-full translate-x-32 translate-y-32 pointer-events-none'></div>
             </section>
 
             {/* Features Section */}

@@ -77,7 +77,7 @@ function MyPosts() {
                         <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
                             <Link
                                 to="/add-post"
-                                className='px-6 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5'
+                                className='px-6 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 touch-manipulation cursor-pointer min-h-[3rem] flex items-center justify-center w-full sm:w-auto'
                             >
                                 Create New Blog
                             </Link>
@@ -104,7 +104,7 @@ function MyPosts() {
                             </p>
                             <Link
                                 to="/add-post"
-                                className='inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-blue-900 transition-all duration-300 shadow-lg hover:shadow-xl'
+                                className='inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-blue-900 transition-all duration-300 shadow-lg hover:shadow-xl touch-manipulation cursor-pointer min-h-[3rem]'
                             >
                                 Write Your First Blog
                                 <svg className='ml-2 w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -140,7 +140,7 @@ function MyPosts() {
                                             </select>
                                             <Link
                                                 to="/add-post"
-                                                className='px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors duration-200'
+                                                className='px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors duration-200 touch-manipulation cursor-pointer min-h-[2.5rem] flex items-center justify-center'
                                             >
                                                 New Post
                                             </Link>
